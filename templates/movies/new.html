@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add a Movie</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <header>
+    <h1>Ryne's Movie Ratings</h1>
+    <h2>See if your opinions are correct!</h2>
+  </header>
+
+  <h2>Add A Movie</h2>
+  <form action="/movies" method = "post">
+    <label for="title">Title</label><br>
+    <input type="text" id="title" name="title" value=''> <br>
+    <label for="director">Director</label><br>
+    <input type="text" id="director" name="director" value= ''> <br>
+    <label for="year">Year</label><br>
+    <input type="text" id="year" name="year" value= ''> <br>
+    <label for="myRating">My Rating</label><br>
+    <input type="text" id="myRating" name="myRating" value= ''> <br>
+    <label for="posterURL">Poster URL</label><br>
+    <input type="text" id="posterURL" name="posterURL" value= ''> <br>
+    <input type="submit" value= "Add Movie" class="button">
+  </form>
+
+</body>
+</html>

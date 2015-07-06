@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Edit</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Ryne's Movie Ratings</h1>
+    <h3>See if your opinions are correct!</h3>
+  </header>
+
+  <h2>Edit {{title}}</h2>
+    <form action="/movies/{{_id}}/edit" method="post">
+    <label for="title">Title</label><br>
+    <input type="text" id="title" name="title" value='{{title}}'><br>
+    <label for="director">Director</label><br>
+    <input type="text" id="director" name="director" value= '{{director}}'><br>
+    <label for="year">Year</label><br>
+    <input type="text" id="year" name="year" value= '{{year}}'><br>
+    <label for="myRating">My Rating</label><br>
+    <input type="text" id="myRating" name="myRating" value= '{{myRating}}'><br>
+    <label for="posterURL">Poster URL</label><br>
+    <input type="text" id="posterURL" name="posterURL" value= '{{posterURL}}' class="poster"><br>
+    <img src="{{posterURL}}" alt="poster"><br>
+    <input type="submit" value= "Update Movie" class="button">
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: gold;
+}
+
+input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+ h1 {
+   color: olive;
+   font-family: sans-serif;
+   text-shadow: 2px 2px 2px #000;
+   font-size: 40px;
+ }
+
+ h2 {
+   color: navy;
+   text-align: center;
+ }
+
+ h3 {
+   color: orange;
+   text-shadow: 2px 2px 2px black;
+   font-size: 30px;
+ }
+
+header {
+  background-image: url(popcorn.jpg);
+  background-repeat: repeat;
+  padding: 50px;
+  width: 900 px;
+  position: relative;
+  top: -10px;
+}
+
+td {
+  padding: 10px;
+  border-top: 2px solid grey;
+}
+
+.headings  {
+  background-color: olive;
+  text-align: center;
+  color: white;
+
+}
+
+.center {
+  text-align: center;
+}
+
+td a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto 0;
+}
+
+.button {
+  padding: 10px;
+  color: gold;
+  background-color: olive;
+  border: none;
+  border-radius: 5px
+}
+
+.poster {
+  width: 300px;
+  height: auto;
+}
+
+iframe.bg {
+  min-height: 80%;
+  min-width: 1024px;
+  width: 80%;
+  height: auto;
+  position: fixed;
+  top: 10%;
+  left: 10%;
+}
+
+.del {
+  position: relative;
+  top: 5px;
+}
